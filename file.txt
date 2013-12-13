@@ -2,3 +2,4 @@ My first line
 xxx
 Another line of text
 My last line
+The big brown fox jumps over the lazy dog.
