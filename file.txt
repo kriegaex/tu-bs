@@ -2,5 +2,5 @@ My first line
 yyyyy
 zzzzz
 Another line of text
-My last line
+My formerly last line
 The big brown fox jumps over the lazy dog.
