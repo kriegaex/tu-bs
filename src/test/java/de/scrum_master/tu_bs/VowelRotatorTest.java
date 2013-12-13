@@ -12,6 +12,7 @@ public class VowelRotatorTest {
 		assertEquals("Alexander", vowelRotator.encode("Elixendir"));
 		assertEquals("Mama", vowelRotator.encode("Meme"));
 		assertEquals("AEIOUaeiou", vowelRotator.encode("EIOUAeioua"));
+		assertEquals("Wrztlbrnft", vowelRotator.encode("Wrztlbrnft"));
 	}
 
 	@Test
@@ -19,5 +20,6 @@ public class VowelRotatorTest {
 		assertEquals("Elixendir", vowelRotator.decode("Alexander"));
 		assertEquals("Meme", vowelRotator.decode("Mama"));
 		assertEquals("EIOUAeioua", vowelRotator.decode("AEIOUaeiou"));
+		assertEquals("Wrztlbrnft", vowelRotator.decode("Wrztlbrnft"));
 	}
 }
